@@ -1,10 +1,9 @@
 // 12S24046 - Indah Elsadai Nainggolan
 // 12S24053 - Dea Anggreany Hutapea
-
 import java.util.*;
 import java.lang.Math;
 
-public class m01 {
+public class M01 {
     private static Scanner input = new Scanner(System.in);
 
     public static void main(String[] args) {
@@ -60,12 +59,6 @@ public class m01 {
             performa = kreditawal * nilai;
             System.out.println(toFixed(performa,1));
             kredit = input.nextLine();
-            if (kredit.equals("---")) {
-                kredit = kredit;
-            } else {
-                kreditawal = Integer.parseDouble(kredit);
-            }
-            nilaihuruf = input.nextLine();
         }
     }
     
